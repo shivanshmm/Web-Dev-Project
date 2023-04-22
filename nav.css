@@ -1,0 +1,37 @@
+/* Styles for navigation menu */
+nav {
+  background-color: #4a4a4a;
+  margin-left: 560px;
+  margin-right: 560px;
+  margin-top: 15px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: 525;
+  font-size: 1.2rem;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #ffb900;
+  border-radius: 5px;
+}

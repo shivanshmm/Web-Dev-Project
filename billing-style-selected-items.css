@@ -1,0 +1,62 @@
+/* Styles for selected items list */
+.selected-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  max-width: 1000px;
+}
+
+.selected-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.selected-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 525;
+  color: #4a4a4a;
+}
+
+.selected-item p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.selected-item button {
+  background-color: #ff5555;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.selected-item button:hover {
+  background-color: #cc4444;
+}
+
+.selected-items-buttons-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected-item-buttons {
+  margin: 0 5px;
+}

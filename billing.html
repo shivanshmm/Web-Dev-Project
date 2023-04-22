@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Billing Page Light</title>
+    <link rel="stylesheet" href="billing-style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="billing-style-billing-items.css" />
+    <link rel="stylesheet" href="billing-style-selected-items.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <!-- <h1>Caffe Management System</h1> -->
+        <nav>
+          <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="billing.html">Billing</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h2 class="order-header">Select the ordered items</h2>
+        <div class="billing-container">
+          <div
+            class="billing-item"
+            data-price="2.50"
+            data-name="Cappuccino"
+            data-quantity="0"
+          >
+            <h3>Cappuccino</h3>
+            <p>$2.50</p>
+          </div>
+          <div class="billing-item" data-price="3.00" data-name="Latte">
+            <h3>Latte</h3>
+            <p>$3.00</p>
+          </div>
+          <div class="billing-item" data-price="2.00" data-name="Espresso">
+            <h3>Espresso</h3>
+            <p>$2.00</p>
+          </div>
+          <div class="billing-item" data-price="3.50" data-name="Mocha">
+            <h3>Mocha</h3>
+            <p>$3.50</p>
+          </div>
+          <div class="billing-item" data-price="2.00" data-name="Americano">
+            <h3>Americano</h3>
+            <p>$2.00</p>
+          </div>
+        </div>
+        <div class="selected-items">
+          <h2>Selected Items:</h2>
+          <ul class="selected-items-list"></ul>
+        </div>
+        <div class="selected-items-buttons">
+          <ul></ul>
+        </div>
+        <div class="total">
+          <h2>Total Cost: <span>0.00</span></h2>
+          <button id="checkout-button" class="checkout-btn">Checkout</button>
+        </div>
+      </main>
+    </div>
+    <script src="billing.js"></script>
+  </body>
+</html>

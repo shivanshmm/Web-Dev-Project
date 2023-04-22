@@ -1,0 +1,48 @@
+/* Styles for billing items list */
+.billing-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.billing-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.billing-item:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.billing-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.billing-item h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  font-weight: 525;
+  color: #4a4a4a;
+}
+
+.billing-item p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+}
